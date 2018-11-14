@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "before-deploy": "rm -rf dist/* && npm run build && cp -r dist/ docs"
   },
   "dependencies": {
     "vue": "^2.5.17"
