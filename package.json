@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "before-deploy": "rm -rf ./docs && npm run build && cp -r dist/ docs"
+    "before-deploy": "rm -rf ./css ./js ./index.html ./favicon.ico && npm run build && cp -r dist/ ."
   },
   "dependencies": {
     "vue": "^2.5.17"
