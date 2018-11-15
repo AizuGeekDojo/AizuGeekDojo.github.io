@@ -5,9 +5,6 @@
 </template>
 <script>
 export default {
-  name: "about",
-  track() {
-    this.$ga.page("/about");
-  }
+  name: "about"
 };
 </script>

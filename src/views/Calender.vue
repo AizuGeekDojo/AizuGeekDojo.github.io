@@ -9,9 +9,6 @@ export default {
   name: "calender",
   components: {
     Calender
-  },
-  track() {
-    this.$ga.page("/calender");
   }
 };
 </script>
