@@ -1,18 +1,21 @@
 <template>
   <div id="app">
     <Header />
-    <Calender />
+    <div id="nav">
+      <router-link to="/">Home</router-link>
+      <router-link to="/about">About</router-link>
+      <router-link to="/calender">SA日程</router-link>
+    </div>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import Calender from "./components/calender.vue";
 import Header from "./components/header.vue";
 
 export default {
   name: "app",
   components: {
-    Calender,
     Header
   }
 };
@@ -25,5 +28,32 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  widows: 100%;
+}
+
+#nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20%;
+  padding-right: 20%;
+  height: 50px;
+  background-color: slategrey;
+  align-items: center;
+}
+
+router-linl {
+  margin: auto;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  #nav {
+    flex-direction: column;
+    height: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+  }
 }
 </style>
