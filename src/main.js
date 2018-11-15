@@ -1,10 +1,12 @@
 import Vue from "vue";
 import App from "./App.vue";
-import router from './router'
+import router from "./router";
+import VueAnalytics from "vue-analytics";
 
 Vue.config.productionTip = false;
 
-new Vue({
+new Vue(VueAnalytics, {
+  id: "UA-129319152-1",
   router,
   render: h => h(App)
 }).$mount("#app");

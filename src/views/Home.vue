@@ -5,6 +5,9 @@
 
 <script>
 export default {
-  name: "home"
+  name: "home",
+  track() {
+    this.$ga.page("/");
+  }
 };
 </script>
