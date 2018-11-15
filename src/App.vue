@@ -4,7 +4,6 @@
     <div id="nav">
       <router-link to="/">Home</router-link>
       <router-link to="/about">About</router-link>
-      <router-link to="/calender">SA日程</router-link>
     </div>
     <router-view/>
   </div>
@@ -50,10 +49,13 @@ router-linl {
 @media (max-width: 600px) {
   #nav {
     flex-direction: column;
-    height: 75px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin: auto;
+  }
+  body {
+    height: 150%;
   }
 }
 </style>

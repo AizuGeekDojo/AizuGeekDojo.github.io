@@ -2,7 +2,7 @@
   <div id="header">
     <header>
       <router-link to="/">
-        <h1>GeekDojo WebPage</h1>
+        <h1>Aizu Geek Dojo WebPage</h1>
       </router-link>
     </header>
   </div>
@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: "header"
+  name: "headerComponent"
 };
 </script>
 
@@ -34,7 +34,7 @@ header router-link {
   }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 400px) {
   header {
     font-size: 60%;
     width: 100%;
