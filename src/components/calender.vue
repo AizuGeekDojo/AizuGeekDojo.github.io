@@ -1,7 +1,9 @@
 <template>
   <div class="calender">
-    <h4>Aizu Geek Dojo 開室時間</h4>
-    <h6>下記時間には、Geek Dojoの機器の扱いに長けたSAが常駐しており、SAが機器の使用方法を説明します。</h6>
+    <div id="calender_message">
+      <h4>{{message.calender.h4}}</h4>
+      <h6>{{message.calender.h6}}</h6>`
+    </div>
     <div class="gc_wrapper">
       <div class="responsive-iframe-container big-container"> 
         <h3>GeekDojo SA日程表</h3>
@@ -18,7 +20,11 @@
 export default {
   name: "calender",
   props: {
-    msg: String
+  },
+  computed: {
+    message: function() {
+      return this.$store.state.message;
+    }
   }
 };
 </script>
@@ -37,10 +43,6 @@ li {
 }
 a {
   color: #42b983;
-}
-
-.calender {
-  border: ;
 }
 
 iframe {
@@ -83,5 +85,8 @@ iframe {
   .small-container {
     display: none;
   }
+}
+
+#calender_message {
 }
 </style>

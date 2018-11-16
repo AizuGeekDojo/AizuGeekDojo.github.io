@@ -4,6 +4,9 @@
     <div id="nav">
       <router-link to="/">Home</router-link>
       <router-link to="/about">About</router-link>
+      <div id="langage_selecter">
+        <langageselecter />
+      </div>
     </div>
     <router-view/>
   </div>
@@ -11,12 +14,14 @@
 
 <script>
 import Header from "./components/header.vue";
-
+import langage_selecter from "./components/langage_selecter.vue";
 export default {
   name: "app",
   components: {
-    Header
-  }
+    Header,
+    langageselecter: langage_selecter
+  },
+
 };
 </script>
 

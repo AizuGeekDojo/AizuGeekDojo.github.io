@@ -1,21 +1,25 @@
 <template>
   <div id="header">
     <header>
-      <router-link to="/">
-        <h1>Aizu Geek Dojo WebPage</h1>
-      </router-link>
+      <div id="header">
+        <router-link id="title" to="/">
+          <h1>Aizu Geek Dojo WebPage</h1>
+        </router-link>
+      </div>
     </header>
   </div>
 </template>
 
 <script>
+
 export default {
-  name: "headerComponent"
+  name: "headerComponent",
 };
 </script>
 
 <style>
 header {
+  width: 100%;
   max-height: 200px;
   max-width: 100%;
   display: flex;
