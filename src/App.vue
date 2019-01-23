@@ -4,6 +4,7 @@
     <div id="nav">
       <router-link to="/">Home</router-link>
       <router-link to="/about">About</router-link>
+      <router-link to="/instruction">講習会</router-link>
       <div id="langage_selecter">
         <langageselecter />
       </div>

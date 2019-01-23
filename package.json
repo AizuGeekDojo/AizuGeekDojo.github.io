@@ -9,6 +9,8 @@
     "before-deploy": "rm -rf ./css ./js ./index.html ./favicon.ico && npm run build && cp -r dist/ ."
   },
   "dependencies": {
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
     "vue": "^2.5.17",
     "vue-analytics": "^5.16.0",
     "vue-router": "^3.0.1",
