@@ -19,8 +19,7 @@
 <script>
 export default {
   name: "calender",
-  props: {
-  },
+  props: {},
   computed: {
     message: function() {
       return this.$store.state.message;
