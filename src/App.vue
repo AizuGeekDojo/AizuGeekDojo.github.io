@@ -20,8 +20,7 @@ export default {
   components: {
     Header,
     langageselecter: langage_selecter
-  },
-
+  }
 };
 </script>
 

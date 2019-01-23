@@ -27,9 +27,8 @@ export default {
       if (this.select_lang == "ja") {
         this.select_lang = "en";
       } else {
-        this.select_lang ="ja";
+        this.select_lang = "ja";
       }
-      
     }
   },
   watch: {
