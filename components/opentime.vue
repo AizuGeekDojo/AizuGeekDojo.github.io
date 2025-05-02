@@ -8,7 +8,7 @@
         there is no reservation, it can be used without a reservation. The Reservation Form is below.</p>
       <div class="grid-container">
         <span>
-          ・学生 / Students:
+          ・場所・機器予約 / Reservation for place and equipment
         </span>
         <a
           href="https://forms.gle/dto324JWUpftKAWZ8"
@@ -16,13 +16,9 @@
           rel="noopener noreferrer"
         >https://forms.gle/dto324JWUpftKAWZ8</a>
         <span>
-          ・教職員その他 / Faculty, staff, and others:
+          ・機器講習会予約 / Reservation for equipment training session:
         </span>
-        <a
-          href="https://forms.gle/CAgBXhhDxMbJSL9f7"
-          target="_blank"
-          rel="noopener noreferrer"
-        >https://forms.gle/CAgBXhhDxMbJSL9f7</a>
+        <nuxt-link to="/instruction">講習会</nuxt-link>
       </div>
       <div class="opentime-calender">
         <div class="gc_wrapper">

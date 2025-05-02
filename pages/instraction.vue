@@ -9,7 +9,7 @@
         </li>
         <li>
           <h3>受講場所</h3>
-          <p>会津ギーク道場</p>
+          <p>Aizu Geek Dojo</p>
         </li>
         <li>
           <h3>講習会資料</h3>
@@ -17,8 +17,8 @@
         </li>
         <li>
           <h3>受講するには</h3>
-          <p>予約フォームにアクセスしていただき手続きを進めてください。<br>予約日の2日前までに予約を完了させておいてください。</p>
-          <p><a href="https://forms.gle/HqpDtpGse7oBtSGp8" target="_blank" rel="noopener noreferrer">予約フォーム（学生用）</a></p>
+          <p>予約フォームにアクセスしていただき手続きを進めてください。<br>予約日の1週間前までに予約を完了させておいてください。</p>
+          <p><a href="https://forms.gle/CAgBXhhDxMbJSL9f7" target="_blank" rel="noopener noreferrer"></a></p>
         </li>
       </ul>
     </div>
