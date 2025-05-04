@@ -11,8 +11,7 @@
     "generate": "npm run processmd && nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
-    "processmd": "rm -f ./blog/*.json && processmd ./blog/* --stdout --outputDir ./blog/ > ./blog/summary.json",
-    "blog-template": "processmd_template_maker --outputDir=./blog/"
+    "processmd": "rm -f ./blog/*.json && processmd ./blog/* --stdout --outputDir ./blog/ > ./blog/summary.json"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
@@ -31,7 +30,6 @@
     "postcss-hexrgba": "^2.0.1",
     "postcss-nested": "^5.0.5",
     "postcss-responsive-type": "^1.0.0",
-    "processmd_template_maker": "github:nozo-moto/processmd_template_maker",
     "sass": "^1.35.1",
     "sass-loader": "^10.1.1",
     "sticky": "^0.8.0",
