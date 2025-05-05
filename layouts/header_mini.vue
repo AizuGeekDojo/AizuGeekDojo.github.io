@@ -5,11 +5,11 @@
         src="../assets/logo.png"
         class="header-mini-logo">
       <div class="header-mini-title"><nuxt-link to="/">Aizu Geek Dojo</nuxt-link></div>
-      <hamburger-menu 
-        ref="hamburger" 
+      <hamburger-menu
+        ref="hamburger"
         @close-sender="menu" />
     </div>
-    
+
     <div
       v-if="isMenu"
       class="header-mini-dropdown-menu">
@@ -26,7 +26,7 @@
         to="/items"
         @click.native="close_menu">備品</nuxt-link>
       <nuxt-link
-        to="/instraction"
+        to="/training"
         @click.native="close_menu">講習会</nuxt-link>
       <nuxt-link
         to="/blog"

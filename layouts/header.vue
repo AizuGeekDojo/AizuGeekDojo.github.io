@@ -47,7 +47,7 @@
           <nuxt-link to="/items">備品</nuxt-link>
         </div>
         <div class="header-secondbar-link">
-          <nuxt-link to="/instraction">講習会</nuxt-link>
+          <nuxt-link to="/training">講習会</nuxt-link>
         </div>
         <div class="header-secondbar-link">
           <nuxt-link to="/blog">ブログ</nuxt-link>
