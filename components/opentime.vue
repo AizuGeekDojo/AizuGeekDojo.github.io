@@ -18,7 +18,7 @@
         <span>
           ・機器講習会予約 / Reservation for equipment training session:
         </span>
-        <nuxt-link to="/instruction">講習会</nuxt-link>
+        <nuxt-link to="/training">講習会</nuxt-link>
       </div>
       <div class="opentime-calender">
         <div class="gc_wrapper">

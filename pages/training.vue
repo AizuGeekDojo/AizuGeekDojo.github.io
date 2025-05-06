@@ -32,7 +32,7 @@ export default {
       breadcrumbs: [
         {
           name: '講習会について',
-          path: '/instraction'
+          path: '/training'
         }
       ]
     }
