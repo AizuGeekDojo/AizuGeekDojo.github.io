@@ -18,7 +18,7 @@
         <li>
           <h3>受講するには</h3>
           <p>予約フォームにアクセスしていただき手続きを進めてください。<br>予約日の1週間前までに予約を完了させておいてください。</p>
-          <p><a href="https://forms.gle/CAgBXhhDxMbJSL9f7" target="_blank" rel="noopener noreferrer"></a>講習会予約フォーム</p>
+          <p><a href="https://forms.gle/CAgBXhhDxMbJSL9f7" target="_blank" rel="noopener noreferrer">講習会予約フォーム</a></p>
         </li>
       </ul>
     </div>
