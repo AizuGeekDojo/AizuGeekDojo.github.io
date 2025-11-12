@@ -34,13 +34,13 @@
     </div>
     <div class="header-secondbar">
       <div class="header-secondbar-links">
-        <div class="header-secondbar-link">
+        <!-- <div class="header-secondbar-link">
           <nuxt-link to="/about">ABOUT</nuxt-link>
-        </div>
+        </div> -->
         <div class="header-secondbar-link">
           <nuxt-link to="/opentime">予約状況</nuxt-link>
         </div>
-        <div class="header-secondbar-link">
+        <!-- <div class="header-secondbar-link">
           <nuxt-link to="/product">制作物</nuxt-link>
         </div>
         <div class="header-secondbar-link">
@@ -54,7 +54,7 @@
         </div>
         <div class="header-secondbar-link">
           <nuxt-link to="/members">メンバー</nuxt-link>
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="header-breadcrumb">

@@ -13,13 +13,13 @@
     <div
       v-if="isMenu"
       class="header-mini-dropdown-menu">
-      <nuxt-link
+      <!-- <nuxt-link
         to="about"
-        @click.native="close_menu">About</nuxt-link>
+        @click.native="close_menu">About</nuxt-link> -->
       <nuxt-link
         to="/opentime"
         @click.native="close_menu">予約状況</nuxt-link>
-      <nuxt-link
+      <!-- <nuxt-link
         to="/product"
         @click.native="close_menu">制作物</nuxt-link>
       <nuxt-link
@@ -33,7 +33,7 @@
         @click.native="close_menu">ブログ</nuxt-link>
       <nuxt-link
         to="/members"
-        @click.native="close_menu">メンバー</nuxt-link>
+        @click.native="close_menu">メンバー</nuxt-link> -->
       <a href="https://www.youtube.com/user/univaizu">Youtube</a>
     </div>
   </div>
